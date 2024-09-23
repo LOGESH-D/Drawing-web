@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Drawing Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="toolbox">
+      <div class="pen-box">
+        <button class="pen"><img src="pencil.png" alt="pencil" width="55px" height="55px"></button>
+        <div class="box-size">
+          <button class="decrease" id="decrease">-</button>
+          <span id="size">1</span>
+          <button class="increase" id="increase">+</button>
+        </div>
+      </div>
+      <div class="colors-box">
+        <img src="color-palette.png" alt="Color palette" width="55px" height="55px">
+        <input type="color" class="color" id="color">
+      </div>
+      <div class="eraser-box">
+        <button class="eraser"><img src="eraser.png" alt="Eraser" width="55px" height="55px"></button>
+        <div class="box-size">
+          <button class="decrease" id="decrease">-</button>
+          <span id="size">1</span>
+          <button class="increase" id="increase">+</button>
+        </div>
+      </div>
+      <button class="clear" id="clear">Clear</button>
+    </div>
+    <canvas id="canvas" height="550px" width= "750px"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
